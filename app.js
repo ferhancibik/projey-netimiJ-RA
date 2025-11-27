@@ -787,8 +787,9 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }, 1000);
 });
-// AUTH-5: Kullanıcı Kayıt API Fonksiyonu
-function registerUser(email, password) {
-    console.log("Kullanıcı backend'e kaydediliyor: " + email);
-    return true;
+// AUTH-6: Kullanıcı Giriş API Fonksiyonu
+function loginUser(email, password) {
+    console.log("Giriş işlemi kontrol ediliyor...");
+    // Backend doğrulaması simülasyonu
+    return "Token: 12345ABC";
 }
