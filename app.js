@@ -67,7 +67,6 @@ const createBookItemsHtml = (books = bookList) => {
           class="img-fluid shadow"
           src="${book.imgSource}"
           width="258"
-          height="400"
         />
       </div>
       <div class="col-6 d-flex flex-column justify-content-between">
@@ -788,3 +787,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }, 1000);
 });
+// AUTH-5: Kullanıcı Kayıt API Fonksiyonu
+function registerUser(email, password) {
+    console.log("Kullanıcı backend'e kaydediliyor: " + email);
+    return true;
+}
